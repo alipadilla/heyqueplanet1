@@ -1,0 +1,238 @@
+/* body{
+    background-color: yellow;
+} */
+
+.my-navbar{
+    position: fixed;
+    top: 0%;
+    display: none;
+    float: right;
+    position: fixed; top:0
+
+} 
+
+.nav-link{
+    font-size: 20px;
+    color: white;
+    font-family: oswald;
+}
+
+
+#logo{
+    width: 100px;
+}
+
+/* INICIA CARDS INDEX */
+/* .padreCards{
+    border: lightgreen solid 2px;
+    
+} */
+.my-card{
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-img-top{
+    width: 120px;    
+}
+
+.cardi{
+    border: rgb(227, 227, 227) solid 1px;
+    width: auto;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    border: rgb(227, 227, 227) solid 1px;
+    width: auto;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* INICIA ESTILOS VIDEO */
+#textoVideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last: center;
+    color: gray;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.raiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: oswald;
+    color: #187725  
+}
+.video{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.video-header{
+    /* position: initial; */
+    width: 720px;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    /* min-width: 100%; 
+    min-height: 100%; */
+}
+
+/* TERMINA ESTILOS VIDEO */
+
+
+
+/* . HTML FORMULARIO CONTACTO */
+.formulario{
+    padding-top: 70px;
+    padding-bottom: 70PX;
+    width: auto;
+    /* border: tomato solid 2px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(https://images.unsplash.com/photo-1519562990232-845beca99938?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.needs-validation{
+    padding-top: 70px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    width: 550px;
+    /* border: rgb(179, 179, 179) solid 1px; */
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.461);
+
+}.unete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    font-family: oswald;
+    text-align: center;
+    color: #187725;
+}
+/* TERMINA FORMULARIO CONTACTO*/
+
+
+
+/* INICIA FOOTER */
+#backfooter{
+    background-color: #A3D810;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container{
+    background-color: #A3D810;
+    width: auto;
+    height: auto;
+    /* margin-left: 0px; */
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 80px;
+    display: block;   
+}
+h3{
+    padding-top: 40px;
+    font-family: oswald;
+    color: #187725;
+}
+/* #textoFooter{
+    font-family: oswald;
+    color: #187725;   
+} */
+
+/* ICONOS REDES SOCIALES */
+.f3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-content: center;
+}
+#textoF{
+    font-family: oswald;
+    color: #187725;
+}
+#fb{
+    width: 35px;
+    height: 35px;
+}
+#ig{
+    width: 35px;
+    height: 35px;
+}
+#tw{
+    width: 35px;
+    height: 35px;
+}
+#ytb{
+    width: 45px;
+    height: 35px;
+}
+#share{
+    width: 35px;
+    height: 35px;
+}
+/* TERMINA FOOTER */
+
+
+
+/* INICIA SABIAS QUE CARDS */
+.card-img-top2{
+    width: 400px;
+}
+
+/* INICIA TIENDA ONLINE CARDS */
+.card-img-top5{
+    width: 250px;
+
+}
+.donativoOnline{
+    color: rgb(155, 155, 155);
+}
+/* TERMINA TIENDA ONLINE CARDS */
+
+/* INICIA ADOPTA */
+.superPadre{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 30px;
+padding-bottom: 70px;
+}
+
+.padre{
+    width: 500px;
+}
+#textoAdopta{
+    text-align: justify;
+    color: rgb(45, 45, 45);
+}
+/* TERMINA ADOPTA */

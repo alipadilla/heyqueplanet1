@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- link css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- link tipografia -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <title>¡Hey que planet!</title>
+</head>
+<!-- FAVICON -->
+<link rel="shortcut icon" href="./media/favicon.png" type="image/x-icon">
+
+<body>
+
+  <!-- EMPIEZA MENU -->
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark" my-navbar>
+    <a class="navbar-brand" href="index.html"><img id="logo" src="./media/heyqueplanet.png" alt=""> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="sabiasQue.html">&nbsp; &nbsp; &nbsp;¿Sabías qué? &nbsp; &nbsp; &nbsp;</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tiendaOnline.html">Tienda online &nbsp; &nbsp; &nbsp;</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto &nbsp; &nbsp; &nbsp;</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="adopta.html">Adopta &nbsp; &nbsp;</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- TERMINA MENU -->
+
+<!-- HEADER TIENDA ONLINE -->
+<div class="headerPanda">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./media/adopta-header.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+        </div>
+<!-- TERMINA HEADER TIENDA ONLINE -->
+
+
+<!-- INICIA FORMULARIO ADOPTA -->
+<div class="superPadre">
+    <div class="padre">
+        <h3 id="textoVideo">¡La naturaleza más cerca de ti!</h3>
+        <h6 id="textoAdopta">Queremos que formes parte de la comunidad y nada mejor que ayudándonos entre amigos, tras los terribles sucesos de incendios forestales, muchos de nuestros amigos necesitan rehabilitación y un nuevo hogar, pero para ello necesitan de nuestro apoyo. Adopta un árbol o un koala y ayuda a la reforestación y preservación de los koalas.</h6>
+        <h3>Solicitud de adopción</h3>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >Nombre</span
+              >
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+              id="preguntaNombre"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >Edad</span
+              >
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+              id="preguntaEdad"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >Pais</span
+              >
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+              id="preguntaPais"
+            >
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >Correo</span
+              >
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+              id="preguntaCorreo"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >Ingresos</span
+              >
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+              id="preguntaIngresos"
+            />
+          </div>
+          <!-- BOTON -->
+          <div class="boton">
+            <button onclick="resultados()" id="orden" type="button" class="btn  btn-success">Adoptar</button>
+          </div>
+          <!-- Card Respuestas -->
+          <div id="resultados" class="card my-card none" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <h6 id="nombre" class="card-subtitle mb-2 text-muted"></h6>
+              <p id="edad" class="card-text"></p>
+              <p id="pais" class="card-text"></p>
+              <p id="correo" class="card-text"></p>
+              <div id="ingresos" class="card-text"></div>
+            </div>
+          </div>
+    </div>
+</div>
+<!-- TERMINA FORMULARIO ADOPTA -->
+  
+
+
+
+
+
+
+ <!-- INICIA FOOTER -->
+ <div id="backfooter">
+    <footer>
+      <div class="container">
+        <div class="row my-row">
+          <div class="f1 col-md-4 col-sm-12 footer">
+            <h5 id="textoF">TÚ PUEDES CAMBIAR AL MUNDO</h5>
+
+            <br>
+            <p> <strong>Escríbenos a:&nbsp;</strong><a href="mailto:contacto@heyqueplanet.org">
+                contacto@heyqueplanet.org</a></p>
+          </div>
+
+          <div class="f2 col-md-4 col-sm-12">
+            <img src="./media/logoB.png" alt="">
+          </div>
+
+          <div class="f3 col-md-4 col-sm-12">
+            <img id="fb" src="./media/fb.png" alt="facebook">
+            &nbsp;
+            <img id="ig" src="./media/ig.png" alt="instagram">
+            &nbsp;
+            <img id="tw" src="./media/tw.png" alt="twitter">
+            &nbsp;
+            <img id="ytb" src="./media/ytb.png" alt="youtube">
+            &nbsp;
+            <img id="share" src="./media/share.png" alt="compartir">
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- TERMINA FOOTER -->
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
